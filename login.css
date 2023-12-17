@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+/* Nav-bar */
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul h2 {
+    color: #d11010;
+    margin: 0px 150px 1px 10px;
+}
+
+.list-items {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    list-style-type: none;
+    font-size: larger;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    float: right;
+    color: #000;
+}
+
+nav ul li :hover {
+    color: #d11010;
+    background: rgb(17, 17, 17);
+    border-radius: 2rem;
+}
+
+li.container button {
+    outline: none;
+    border: none;
+    float: right;
+    margin: 2px 1px 1px 5px;
+    background-color: white;
+}
+#icons {
+    position: relative;
+    display: flex;
+    left: 30%;
+}
+
+.hamburg button{
+    background-color: white;
+    font-size: larger;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.mobile-nav{
+    display: none;
+}
+
+b {
+    font-weight: bolder;
+    color: #000;
+    background-color: white;
+}
+/* Section */
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+section .imgbx {
+    width: 50%;
+    height: 100%;
+}
+
+section .imgbx img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section .contentbx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .contentbx .formbx {
+    margin-top: 20%;
+    width: 50%;
+}
+
+section .contentbx .formbx h1{
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid red;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .contentbx .formbx .inputbx{
+    color: black;
+    margin-bottom: 20px;
+}
+
+section .contentbx .formbx label{
+    color: rgb(121, 125, 125);
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+section .contentbx .formbx .inputbx input{
+    width: 100%;
+    outline: none;
+    border-color: rgb(141, 137, 137);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #607d8b ;
+    background: transparent;
+}
+section .contentbx .formbx .inputbx input:hover{
+    color: #000;
+    background: #c75454;
+}
+
+
+section .contentbx .formbx .inputbx a{
+    color: #ee9a9a;
+}

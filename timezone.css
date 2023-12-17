@@ -1,0 +1,206 @@
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav-bar */
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul h2 {
+    color: #d11010;
+    margin: 0px 150px 1px 10px;
+}
+
+.list-items {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    list-style-type: none;
+    font-size: larger;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    float: right;
+    color: #000;
+}
+
+nav ul li :hover {
+    background: gray;
+    border-radius: 2rem;
+}
+
+li.container button {
+    outline: none;
+    border: none;
+    float: right;
+    margin: 2px 1px 1px 5px;
+    background-color: white;
+}
+#icons {
+    position: relative;
+    display: flex;
+    left: 30%;
+}
+
+#Hamburg{
+    background-color: white;
+    border: none;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: relative;
+    bottom: 1.7rem;
+    left: 10rem;
+    cursor: pointer;
+}
+.mobile-nav{
+    display: none;
+}
+
+/* Background */
+.back {
+    position: relative;
+    background-size: cover;
+    background-image: url('https://livedemo00.template-help.com/virtuemart_60030/images/parallax-1.jpg');
+    height: 35rem;
+    width: 95rem;
+}
+
+.back button {
+    position: absolute;
+    bottom: -12px;
+}
+
+.shop {
+    z-index: 1;
+    padding: 5px 15px;
+    color: rgb(246, 243, 240);
+    background-color: rgb(105, 41, 41);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 2rem;
+    margin: 1px 0px 20px 5px;
+    position: relative;
+
+}
+
+.shop:hover {
+    background-color: rgb(59, 44, 25);
+}
+
+.shop a {
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* Articles */
+
+.gallery {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 1.2rem;
+}
+
+.content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.content p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+article h3{
+    color: black;
+    padding-top: 60px;
+    margin: 30px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0.8rem;
+}
+
+.content ul {
+    justify-content: center;
+    margin: 1px 2rem 1px 1px;
+}
+
+.fa-solid.fa-star {
+    color: gold;
+    margin: 1px 1px 0.8rem 1px;
+
+}
+
+.buy-1,
+.buy-2,
+.buy-3,
+.buy-4 {
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgb(115, 37, 37);
+    padding: 0.4rem 0.8rem;
+    
+}
+/* Footer*/
+footer .copyright{
+    background-color: gainsboro;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+/* Utility services */
+
+b {
+    font-weight: bolder;
+    color: #000;
+    background-color: white;
+}
+.content img{
+   width: 20rem;
+   height: 20rem;
+}

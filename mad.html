@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="about.html">ABOUT&nbsp;US</a></li>
+            <li><a href="Latest.html">LATEST</a></li>
+            <li><a href="https://www.youtube.com/">BLOG</a></li>
+            <li><a href="about.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <button id="Hamburg">Madhav</button>
+    <script>
+        const btn = document.getElementById("Hamburg");
+        btn.addEventListener('click', function () {
+            const nav = document.getElementsByClassName('mobile-nav')[0];
+            if (nav.style.display != 'none') {
+                // Show the nav
+                nav.style.display = 'none';
+            } else {
+                // Hide the nav
+                nav.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+
+</html>
